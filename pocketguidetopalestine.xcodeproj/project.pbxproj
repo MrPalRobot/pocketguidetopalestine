@@ -14,19 +14,11 @@
 		DB0EAFE928AC177300ED4B70 /* pocketguidetopalestine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB0EAFE728AC177300ED4B70 /* pocketguidetopalestine.xcdatamodeld */; };
 		DB0EAFEB28AC177C00ED4B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0EAFEA28AC177C00ED4B70 /* Assets.xcassets */; };
 		DB0EAFEE28AC177C00ED4B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0EAFEC28AC177C00ED4B70 /* LaunchScreen.storyboard */; };
-		DB0EAFF928AC177C00ED4B70 /* pocketguidetopalestineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EAFF828AC177C00ED4B70 /* pocketguidetopalestineTests.swift */; };
 		DB0EB00328AC177C00ED4B70 /* pocketguidetopalestineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EB00228AC177C00ED4B70 /* pocketguidetopalestineUITests.swift */; };
 		DB0EB00528AC177C00ED4B70 /* pocketguidetopalestineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EB00428AC177C00ED4B70 /* pocketguidetopalestineUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DB0EAFF528AC177C00ED4B70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB0EAFD328AC177200ED4B70 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB0EAFDA28AC177200ED4B70;
-			remoteInfo = pocketguidetopalestine;
-		};
 		DB0EAFFF28AC177C00ED4B70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB0EAFD328AC177200ED4B70 /* Project object */;
@@ -46,7 +38,6 @@
 		DB0EAFEA28AC177C00ED4B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0EAFED28AC177C00ED4B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB0EAFEF28AC177C00ED4B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB0EAFF428AC177C00ED4B70 /* pocketguidetopalestineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketguidetopalestineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0EAFF828AC177C00ED4B70 /* pocketguidetopalestineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketguidetopalestineTests.swift; sourceTree = "<group>"; };
 		DB0EAFFE28AC177C00ED4B70 /* pocketguidetopalestineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketguidetopalestineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0EB00228AC177C00ED4B70 /* pocketguidetopalestineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketguidetopalestineUITests.swift; sourceTree = "<group>"; };
@@ -55,13 +46,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		DB0EAFD828AC177200ED4B70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB0EAFF128AC177C00ED4B70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				DB0EAFDB28AC177200ED4B70 /* pocketguidetopalestine.app */,
-				DB0EAFF428AC177C00ED4B70 /* pocketguidetopalestineTests.xctest */,
 				DB0EAFFE28AC177C00ED4B70 /* pocketguidetopalestineUITests.xctest */,
 			);
 			name = Products;
@@ -150,24 +133,6 @@
 			productReference = DB0EAFDB28AC177200ED4B70 /* pocketguidetopalestine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB0EAFF328AC177C00ED4B70 /* pocketguidetopalestineTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB0EB00B28AC177C00ED4B70 /* Build configuration list for PBXNativeTarget "pocketguidetopalestineTests" */;
-			buildPhases = (
-				DB0EAFF028AC177C00ED4B70 /* Sources */,
-				DB0EAFF128AC177C00ED4B70 /* Frameworks */,
-				DB0EAFF228AC177C00ED4B70 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB0EAFF628AC177C00ED4B70 /* PBXTargetDependency */,
-			);
-			name = pocketguidetopalestineTests;
-			productName = pocketguidetopalestineTests;
-			productReference = DB0EAFF428AC177C00ED4B70 /* pocketguidetopalestineTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		DB0EAFFD28AC177C00ED4B70 /* pocketguidetopalestineUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0EB00E28AC177C00ED4B70 /* Build configuration list for PBXNativeTarget "pocketguidetopalestineUITests" */;
@@ -199,10 +164,6 @@
 					DB0EAFDA28AC177200ED4B70 = {
 						CreatedOnToolsVersion = 13.2;
 					};
-					DB0EAFF328AC177C00ED4B70 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = DB0EAFDA28AC177200ED4B70;
-					};
 					DB0EAFFD28AC177C00ED4B70 = {
 						CreatedOnToolsVersion = 13.2;
 						TestTargetID = DB0EAFDA28AC177200ED4B70;
@@ -223,7 +184,6 @@
 			projectRoot = "";
 			targets = (
 				DB0EAFDA28AC177200ED4B70 /* pocketguidetopalestine */,
-				DB0EAFF328AC177C00ED4B70 /* pocketguidetopalestineTests */,
 				DB0EAFFD28AC177C00ED4B70 /* pocketguidetopalestineUITests */,
 			);
 		};
@@ -237,13 +197,6 @@
 				DB0EAFEE28AC177C00ED4B70 /* LaunchScreen.storyboard in Resources */,
 				DB0EAFEB28AC177C00ED4B70 /* Assets.xcassets in Resources */,
 				DB0EAFE628AC177200ED4B70 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB0EAFF228AC177C00ED4B70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +221,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB0EAFF028AC177C00ED4B70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB0EAFF928AC177C00ED4B70 /* pocketguidetopalestineTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DB0EAFFA28AC177C00ED4B70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,11 +233,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DB0EAFF628AC177C00ED4B70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB0EAFDA28AC177200ED4B70 /* pocketguidetopalestine */;
-			targetProxy = DB0EAFF528AC177C00ED4B70 /* PBXContainerItemProxy */;
-		};
 		DB0EB00028AC177C00ED4B70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DB0EAFDA28AC177200ED4B70 /* pocketguidetopalestine */;
@@ -492,46 +432,6 @@
 			};
 			name = Release;
 		};
-		DB0EB00C28AC177C00ED4B70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BX2ZYRRB69;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.pocketguidetopalestineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketguidetopalestine.app/pocketguidetopalestine";
-			};
-			name = Debug;
-		};
-		DB0EB00D28AC177C00ED4B70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BX2ZYRRB69;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.pocketguidetopalestineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketguidetopalestine.app/pocketguidetopalestine";
-			};
-			name = Release;
-		};
 		DB0EB00F28AC177C00ED4B70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -585,15 +485,6 @@
 			buildConfigurations = (
 				DB0EB00928AC177C00ED4B70 /* Debug */,
 				DB0EB00A28AC177C00ED4B70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB0EB00B28AC177C00ED4B70 /* Build configuration list for PBXNativeTarget "pocketguidetopalestineTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB0EB00C28AC177C00ED4B70 /* Debug */,
-				DB0EB00D28AC177C00ED4B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
