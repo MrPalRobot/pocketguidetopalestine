@@ -187,10 +187,236 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-18 at 6.47.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="sOH-bE-T39">
+                                                <rect key="frame" x="25" y="181" width="284" height="298"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpo-he-wgf">
+                                                <rect key="frame" x="26" y="370" width="301" height="340"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Since">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="2008,">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Israel">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="has">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="waged">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="four">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="wars">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="on">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="the">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Palestinian">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="territory,">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="killing">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="nearly">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="4,000">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="people">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="–">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="one-quarter">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="of">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="them">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="children.                                                                   -Al">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Jazeera">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="News">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3000" id="S9Q-ac-LuN"/>
+                                            <constraint firstAttribute="height" constant="3000" id="ZXr-df-Y2q"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -205,11 +431,11 @@
                         <viewLayoutGuide key="safeArea" id="07j-Rl-Yef"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="f4o-Pj-vuZ" firstAttribute="height" secondItem="0rc-a3-ZPU" secondAttribute="height" multiplier="3.34821" id="GXf-Ee-lWk"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="top" secondItem="0rc-a3-ZPU" secondAttribute="top" id="Y9a-54-Ery"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="leading" secondItem="07j-Rl-Yef" secondAttribute="leading" id="YUr-qc-kuK"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="trailing" secondItem="07j-Rl-Yef" secondAttribute="trailing" id="byS-Ix-A3y"/>
                             <constraint firstItem="f4o-Pj-vuZ" firstAttribute="width" secondItem="0rc-a3-ZPU" secondAttribute="width" id="liN-SZ-ABf"/>
+                            <constraint firstItem="f4o-Pj-vuZ" firstAttribute="height" secondItem="0rc-a3-ZPU" secondAttribute="height" multiplier="3.34821" id="nay-uP-p2k"/>
                             <constraint firstAttribute="bottom" secondItem="k1G-sg-fc7" secondAttribute="bottom" id="xdq-UU-WYU"/>
                         </constraints>
                     </view>
@@ -217,7 +443,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxJ-n0-uHM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3948" y="71"/>
+            <point key="canvasLocation" x="3947.826086956522" y="70.982142857142847"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -401,6 +627,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2022-08-18 at 6.47.53 PM" width="728" height="732"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
