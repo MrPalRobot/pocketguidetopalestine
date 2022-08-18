@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6186127F28AE8804001AE6EA /* XinFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186127E28AE8803001AE6EA /* XinFirstViewController.swift */; };
+		6186128128AE8834001AE6EA /* XinSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128028AE8834001AE6EA /* XinSecondViewController.swift */; };
+		6186128328AE8855001AE6EA /* XinThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128228AE8855001AE6EA /* XinThirdViewController.swift */; };
+		6186128528AE886C001AE6EA /* XinFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128428AE886C001AE6EA /* XinFourthViewController.swift */; };
+		6186128728AE888F001AE6EA /* XinFifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128628AE888F001AE6EA /* XinFifthViewController.swift */; };
+		6186128928AE88B3001AE6EA /* XinSixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128828AE88B3001AE6EA /* XinSixthViewController.swift */; };
+		6186128B28AE88F6001AE6EA /* XinSeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128A28AE88F6001AE6EA /* XinSeventhViewController.swift */; };
+		6186128D28AE891B001AE6EA /* XinEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128C28AE891B001AE6EA /* XinEightViewController.swift */; };
+		6186128F28AE8939001AE6EA /* XinNinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186128E28AE8939001AE6EA /* XinNinthViewController.swift */; };
+		6186129128AE8952001AE6EA /* XinTenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129028AE8952001AE6EA /* XinTenthViewController.swift */; };
+		6186129328AE8975001AE6EA /* XinEleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129228AE8975001AE6EA /* XinEleventhViewController.swift */; };
+		6186129528AE899E001AE6EA /* SarahFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129428AE899E001AE6EA /* SarahFirstViewController.swift */; };
+		6186129728AE89B5001AE6EA /* SarahSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129628AE89B5001AE6EA /* SarahSecondViewController.swift */; };
+		6186129928AE89CC001AE6EA /* SarahThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129828AE89CC001AE6EA /* SarahThirdViewController.swift */; };
+		6186129B28AE89D8001AE6EA /* SarahFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129A28AE89D8001AE6EA /* SarahFourthViewController.swift */; };
+		6186129D28AE89E3001AE6EA /* SarahFifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129C28AE89E3001AE6EA /* SarahFifthViewController.swift */; };
+		6186129F28AE89ED001AE6EA /* SarahSixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186129E28AE89ED001AE6EA /* SarahSixthViewController.swift */; };
+		618612A128AE89F9001AE6EA /* SarahSeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618612A028AE89F9001AE6EA /* SarahSeventhViewController.swift */; };
+		618612A328AE8A05001AE6EA /* SarahEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618612A228AE8A05001AE6EA /* SarahEightViewController.swift */; };
+		618612A528AE8A13001AE6EA /* KhadeejaFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618612A428AE8A12001AE6EA /* KhadeejaFirstViewController.swift */; };
+		618612A728AE8A1C001AE6EA /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618612A628AE8A1C001AE6EA /* ResourcesViewController.swift */; };
 		DB0EAFDF28AC177200ED4B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EAFDE28AC177200ED4B70 /* AppDelegate.swift */; };
 		DB0EAFE128AC177200ED4B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EAFE028AC177200ED4B70 /* SceneDelegate.swift */; };
 		DB0EAFE328AC177200ED4B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EAFE228AC177200ED4B70 /* ViewController.swift */; };
@@ -29,6 +50,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6186127E28AE8803001AE6EA /* XinFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFirstViewController.swift; sourceTree = "<group>"; };
+		6186128028AE8834001AE6EA /* XinSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinSecondViewController.swift; sourceTree = "<group>"; };
+		6186128228AE8855001AE6EA /* XinThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinThirdViewController.swift; sourceTree = "<group>"; };
+		6186128428AE886C001AE6EA /* XinFourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFourthViewController.swift; sourceTree = "<group>"; };
+		6186128628AE888F001AE6EA /* XinFifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFifthViewController.swift; sourceTree = "<group>"; };
+		6186128828AE88B3001AE6EA /* XinSixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinSixthViewController.swift; sourceTree = "<group>"; };
+		6186128A28AE88F6001AE6EA /* XinSeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinSeventhViewController.swift; sourceTree = "<group>"; };
+		6186128C28AE891B001AE6EA /* XinEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinEightViewController.swift; sourceTree = "<group>"; };
+		6186128E28AE8939001AE6EA /* XinNinthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinNinthViewController.swift; sourceTree = "<group>"; };
+		6186129028AE8952001AE6EA /* XinTenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinTenthViewController.swift; sourceTree = "<group>"; };
+		6186129228AE8975001AE6EA /* XinEleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinEleventhViewController.swift; sourceTree = "<group>"; };
+		6186129428AE899E001AE6EA /* SarahFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahFirstViewController.swift; sourceTree = "<group>"; };
+		6186129628AE89B5001AE6EA /* SarahSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahSecondViewController.swift; sourceTree = "<group>"; };
+		6186129828AE89CC001AE6EA /* SarahThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahThirdViewController.swift; sourceTree = "<group>"; };
+		6186129A28AE89D8001AE6EA /* SarahFourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahFourthViewController.swift; sourceTree = "<group>"; };
+		6186129C28AE89E3001AE6EA /* SarahFifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahFifthViewController.swift; sourceTree = "<group>"; };
+		6186129E28AE89ED001AE6EA /* SarahSixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahSixthViewController.swift; sourceTree = "<group>"; };
+		618612A028AE89F9001AE6EA /* SarahSeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahSeventhViewController.swift; sourceTree = "<group>"; };
+		618612A228AE8A05001AE6EA /* SarahEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahEightViewController.swift; sourceTree = "<group>"; };
+		618612A428AE8A12001AE6EA /* KhadeejaFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhadeejaFirstViewController.swift; sourceTree = "<group>"; };
+		618612A628AE8A1C001AE6EA /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		DB0EAFDB28AC177200ED4B70 /* pocketguidetopalestine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketguidetopalestine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0EAFDE28AC177200ED4B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB0EAFE028AC177200ED4B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +134,27 @@
 				DB0EAFEC28AC177C00ED4B70 /* LaunchScreen.storyboard */,
 				DB0EAFEF28AC177C00ED4B70 /* Info.plist */,
 				DB0EAFE728AC177300ED4B70 /* pocketguidetopalestine.xcdatamodeld */,
+				6186127E28AE8803001AE6EA /* XinFirstViewController.swift */,
+				6186128028AE8834001AE6EA /* XinSecondViewController.swift */,
+				6186128228AE8855001AE6EA /* XinThirdViewController.swift */,
+				6186128428AE886C001AE6EA /* XinFourthViewController.swift */,
+				6186128628AE888F001AE6EA /* XinFifthViewController.swift */,
+				6186128828AE88B3001AE6EA /* XinSixthViewController.swift */,
+				6186128A28AE88F6001AE6EA /* XinSeventhViewController.swift */,
+				6186128C28AE891B001AE6EA /* XinEightViewController.swift */,
+				6186128E28AE8939001AE6EA /* XinNinthViewController.swift */,
+				6186129028AE8952001AE6EA /* XinTenthViewController.swift */,
+				6186129228AE8975001AE6EA /* XinEleventhViewController.swift */,
+				6186129428AE899E001AE6EA /* SarahFirstViewController.swift */,
+				6186129628AE89B5001AE6EA /* SarahSecondViewController.swift */,
+				6186129828AE89CC001AE6EA /* SarahThirdViewController.swift */,
+				6186129A28AE89D8001AE6EA /* SarahFourthViewController.swift */,
+				6186129C28AE89E3001AE6EA /* SarahFifthViewController.swift */,
+				6186129E28AE89ED001AE6EA /* SarahSixthViewController.swift */,
+				618612A028AE89F9001AE6EA /* SarahSeventhViewController.swift */,
+				618612A228AE8A05001AE6EA /* SarahEightViewController.swift */,
+				618612A428AE8A12001AE6EA /* KhadeejaFirstViewController.swift */,
+				618612A628AE8A1C001AE6EA /* ResourcesViewController.swift */,
 			);
 			path = pocketguidetopalestine;
 			sourceTree = "<group>";
@@ -215,9 +278,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0EAFE328AC177200ED4B70 /* ViewController.swift in Sources */,
+				6186129B28AE89D8001AE6EA /* SarahFourthViewController.swift in Sources */,
+				6186127F28AE8804001AE6EA /* XinFirstViewController.swift in Sources */,
 				DB0EAFDF28AC177200ED4B70 /* AppDelegate.swift in Sources */,
+				6186129D28AE89E3001AE6EA /* SarahFifthViewController.swift in Sources */,
+				6186128928AE88B3001AE6EA /* XinSixthViewController.swift in Sources */,
+				6186129928AE89CC001AE6EA /* SarahThirdViewController.swift in Sources */,
+				6186129128AE8952001AE6EA /* XinTenthViewController.swift in Sources */,
+				618612A528AE8A13001AE6EA /* KhadeejaFirstViewController.swift in Sources */,
+				6186129328AE8975001AE6EA /* XinEleventhViewController.swift in Sources */,
+				618612A728AE8A1C001AE6EA /* ResourcesViewController.swift in Sources */,
 				DB0EAFE128AC177200ED4B70 /* SceneDelegate.swift in Sources */,
+				6186128328AE8855001AE6EA /* XinThirdViewController.swift in Sources */,
+				6186129F28AE89ED001AE6EA /* SarahSixthViewController.swift in Sources */,
+				6186128F28AE8939001AE6EA /* XinNinthViewController.swift in Sources */,
+				6186128B28AE88F6001AE6EA /* XinSeventhViewController.swift in Sources */,
+				6186128728AE888F001AE6EA /* XinFifthViewController.swift in Sources */,
+				6186128128AE8834001AE6EA /* XinSecondViewController.swift in Sources */,
+				618612A128AE89F9001AE6EA /* SarahSeventhViewController.swift in Sources */,
+				618612A328AE8A05001AE6EA /* SarahEightViewController.swift in Sources */,
+				6186128528AE886C001AE6EA /* XinFourthViewController.swift in Sources */,
+				6186128D28AE891B001AE6EA /* XinEightViewController.swift in Sources */,
 				DB0EAFE928AC177300ED4B70 /* pocketguidetopalestine.xcdatamodeld in Sources */,
+				6186129528AE899E001AE6EA /* SarahFirstViewController.swift in Sources */,
+				6186129728AE89B5001AE6EA /* SarahSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
