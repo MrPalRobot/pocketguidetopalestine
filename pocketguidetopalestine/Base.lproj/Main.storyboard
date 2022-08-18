@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7t-aN-xCc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3990" y="756"/>
+            <point key="canvasLocation" x="4801" y="92"/>
         </scene>
         <!--Sarah First View Controller-->
         <scene sceneID="MnS-yG-qvR">
@@ -169,6 +169,24 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzX-el-YY1">
+                                                <rect key="frame" x="170" y="53" width="74" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Video 2"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0q-WG-G3e">
+                                                <rect key="frame" x="320" y="53" width="63" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oB-6z-B8i">
+                                                <rect key="frame" x="33" y="53" width="56" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -187,12 +205,12 @@
                         <viewLayoutGuide key="safeArea" id="07j-Rl-Yef"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="f4o-Pj-vuZ" firstAttribute="height" secondItem="0rc-a3-ZPU" secondAttribute="height" multiplier="3.34821" id="GXf-Ee-lWk"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="top" secondItem="0rc-a3-ZPU" secondAttribute="top" id="Y9a-54-Ery"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="leading" secondItem="07j-Rl-Yef" secondAttribute="leading" id="YUr-qc-kuK"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="trailing" secondItem="07j-Rl-Yef" secondAttribute="trailing" id="byS-Ix-A3y"/>
                             <constraint firstItem="f4o-Pj-vuZ" firstAttribute="width" secondItem="0rc-a3-ZPU" secondAttribute="width" id="liN-SZ-ABf"/>
                             <constraint firstAttribute="bottom" secondItem="k1G-sg-fc7" secondAttribute="bottom" id="xdq-UU-WYU"/>
-                            <constraint firstItem="f4o-Pj-vuZ" firstAttribute="height" secondItem="0rc-a3-ZPU" secondAttribute="height" multiplier="3.34821" id="xst-Pg-n7V"/>
                         </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
