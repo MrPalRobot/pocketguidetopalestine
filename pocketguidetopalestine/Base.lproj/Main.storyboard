@@ -154,12 +154,11 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k1G-sg-fc7">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-Pj-vuZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-Pj-vuZ">
+                                        <rect key="frame" x="0.0" y="-324" width="414" height="6000"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzX-el-YY1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzX-el-YY1">
                                                 <rect key="frame" x="170" y="53" width="74" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Video 2"/>
                                             </button>
@@ -175,13 +174,14 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-18 at 6.47.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="zd5-k5-83X">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2022-08-18 at 6.47.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="zd5-k5-83X">
                                                 <rect key="frame" x="56" y="212" width="303" height="310"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="310" id="byM-eg-xCA"/>
+                                                </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FD6-RE-baf">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FD6-RE-baf">
                                                 <rect key="frame" x="58" y="172" width="299" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Israel's Recent Raid in Gaza">
                                                         <attributes>
@@ -193,9 +193,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pn-fE-RGx">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pn-fE-RGx">
                                                 <rect key="frame" x="25" y="898" width="366" height="62"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="UN special rapporteur says Israeli strikes ‘illegal and irresponsible'">
                                                         <attributes>
@@ -212,9 +211,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxb-eI-PM8">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxb-eI-PM8">
                                                 <rect key="frame" x="47" y="113" width="320" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Current Events">
                                                         <attributes>
@@ -224,9 +222,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MU9-od-ysn">
-                                                <rect key="frame" x="44" y="530" width="326" height="94"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MU9-od-ysn">
+                                                <rect key="frame" x="44" y="530" width="326" height="82"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">Since 2008, Israel has waged four wars on the Palestinian territory, killing nearly 4,000 people – one-quarter of them children.</string>
@@ -245,9 +242,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8O-ja-aoL">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8O-ja-aoL">
                                                 <rect key="frame" x="44" y="617" width="313" height="108"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">Starting on August 9th, 2022, Israel attacked the besieged Gaza Strip. The attack continued for 3 days, killing 49 people, 17 of which were children.</string>
@@ -259,9 +255,11 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgA-2W-ueS">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgA-2W-ueS">
                                                 <rect key="frame" x="44" y="965" width="313" height="153"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="153" id="p8j-hU-2Tv"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">The UN special rapporteur on the occupied Palestinian territory has said Israel’s attacks on Gaza are not only “illegal but irresponsible”, calling for a diplomatic solution to the crisis.</string>
@@ -280,9 +278,11 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akF-L9-BnY">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akF-L9-BnY">
                                                 <rect key="frame" x="47" y="1094" width="320" height="201"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="yGJ-3K-ZoN"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">“The situation in Gaza is on the verge of a humanitarian crisis,” Francesca Albanez told Al Jazeera. “The only way to secure wellness of Palestinians wherever they are is to lift the siege and allow aid to enter."</string>
@@ -301,9 +301,11 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHW-bx-Zgq">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHW-bx-Zgq">
                                                 <rect key="frame" x="44" y="1278" width="326" height="153"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="153" id="hWS-yM-MvW"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">Albanez also blasted the United States for saying that it believed Israel had the right to defend itself. “Israel cannot claim that it’s defending itself in this conflict,” she said.</string>
@@ -322,9 +324,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nb-0u-TV2">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nb-0u-TV2">
                                                 <rect key="frame" x="130" y="762" width="155" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
@@ -339,9 +340,8 @@
                                                     <action selector="newsArticle1:" destination="099-IM-B04" eventType="touchUpInside" id="Ms1-kE-wQf"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTf-5g-4Ua">
-                                                <rect key="frame" x="140" y="726" width="135" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTf-5g-4Ua">
+                                                <rect key="frame" x="139.5" y="726" width="135" height="21"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="More references:">
                                                         <attributes>
@@ -351,9 +351,11 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVV-Ex-iyu">
-                                                <rect key="frame" x="5" y="822" width="404" height="56"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVV-Ex-iyu">
+                                                <rect key="frame" x="5" y="820" width="404" height="56"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="Ba5-5h-sjU"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
@@ -368,13 +370,15 @@
                                                     <action selector="lifeAndDeathChild:" destination="099-IM-B04" eventType="touchUpInside" id="juD-1p-GKZ"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-19 at 4.48.08 AM" translatesAutoresizingMaskIntoConstraints="NO" id="8ha-pO-VbW">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2022-08-19 at 4.48.08 AM" translatesAutoresizingMaskIntoConstraints="NO" id="8ha-pO-VbW">
                                                 <rect key="frame" x="17" y="1439" width="380" height="370"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-RV-CIJ">
-                                                <rect key="frame" x="135" y="1830" width="145" height="46"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-RV-CIJ">
+                                                <rect key="frame" x="128" y="1845" width="145" height="46"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="145" id="OM6-Hx-xMT"/>
+                                                    <constraint firstAttribute="height" constant="46" id="bXY-XC-UEl"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
@@ -389,15 +393,14 @@
                                                     <action selector="uNButton:" destination="099-IM-B04" eventType="touchUpInside" id="ptC-ey-cco"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-ry-grY">
-                                                <rect key="frame" x="0.0" y="1906" width="414" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-ry-grY">
+                                                <rect key="frame" x="0.0" y="1930" width="414" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBZ-BK-vLA">
-                                                <rect key="frame" x="88" y="1976" width="239" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBZ-BK-vLA">
+                                                <rect key="frame" x="81" y="1976" width="239" height="36"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">Israel shuts down NGOs
@@ -417,9 +420,11 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgj-Ao-hps">
-                                                <rect key="frame" x="44" y="2020" width="326" height="153"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgj-Ao-hps">
+                                                <rect key="frame" x="47" y="2020" width="326" height="153"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="153" id="dAK-b5-qxD"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Israeli forces broke into and shut down the offices of seven civil society and human rights organisations.">
                                                         <attributes>
@@ -437,9 +442,11 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcY-XF-6dm">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcY-XF-6dm">
                                                 <rect key="frame" x="47" y="2157" width="326" height="377"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="377" id="aNR-59-dGX"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">They included Addameer Prisoner Support and Human Rights Association, Al-Haq rights group, the Union of Palestinian Women Committees (UPWC), the Union of Agricultural Work Committees (UAWC), the Bisan Center for Research and Development, and the Palestine chapter of the Geneva-based Defence for Children International.
@@ -459,9 +466,8 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btA-Lk-cii">
-                                                <rect key="frame" x="97" y="2542" width="206" height="60"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btA-Lk-cii">
+                                                <rect key="frame" x="112" y="2550" width="191" height="60"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
@@ -476,9 +482,8 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                     <action selector="nGos:" destination="099-IM-B04" eventType="touchUpInside" id="mcP-tb-Pyk"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0k-zg-ol0">
-                                                <rect key="frame" x="0.0" y="2647" width="414" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0k-zg-ol0">
+                                                <rect key="frame" x="3" y="2635" width="414" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -486,9 +491,65 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="cTf-5g-4Ua" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="726" id="03H-Ey-zyX"/>
+                                            <constraint firstItem="Nxb-eI-PM8" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="113" id="0bP-3W-zIj"/>
+                                            <constraint firstItem="vgA-2W-ueS" firstAttribute="centerX" secondItem="btA-Lk-cii" secondAttribute="centerX" id="1Y5-w3-cwk"/>
                                             <constraint firstItem="ffc-ry-grY" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="4nj-bu-t4h"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="QHW-bx-Zgq" secondAttribute="centerX" id="5HJ-YN-hMg"/>
+                                            <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="vgA-2W-ueS" secondAttribute="leading" id="68Z-81-icY"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="zd5-k5-83X" secondAttribute="centerX" id="6Nh-q5-yOq"/>
+                                            <constraint firstItem="btA-Lk-cii" firstAttribute="top" secondItem="PcY-XF-6dm" secondAttribute="bottom" constant="8" id="7Hd-sN-Qo2"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="WzX-el-YY1" secondAttribute="centerX" id="8U8-8v-VU4"/>
+                                            <constraint firstItem="QHW-bx-Zgq" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="1278" id="ALe-Sn-voO"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="qN3-RV-CIJ" secondAttribute="centerX" id="AUr-Lr-OPY"/>
+                                            <constraint firstItem="cTf-5g-4Ua" firstAttribute="centerX" secondItem="2Pn-fE-RGx" secondAttribute="centerX" id="BkH-sI-6pI"/>
+                                            <constraint firstItem="zd5-k5-83X" firstAttribute="top" secondItem="FD6-RE-baf" secondAttribute="bottom" constant="8" id="Ehd-fN-DsG"/>
+                                            <constraint firstItem="cTf-5g-4Ua" firstAttribute="top" secondItem="B8O-ja-aoL" secondAttribute="bottom" constant="1" id="FXk-oE-gbf"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="6000" id="Fo5-Wc-8h6"/>
+                                            <constraint firstItem="8ha-pO-VbW" firstAttribute="top" secondItem="QHW-bx-Zgq" secondAttribute="bottom" constant="8" id="Gff-GL-soE"/>
+                                            <constraint firstItem="cgj-Ao-hps" firstAttribute="top" secondItem="JBZ-BK-vLA" secondAttribute="bottom" constant="8" id="HRj-0A-3N3"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="7nb-0u-TV2" secondAttribute="centerX" id="HSN-vp-Z1f"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="JBZ-BK-vLA" secondAttribute="centerX" id="IA8-zO-lBY"/>
+                                            <constraint firstItem="vgA-2W-ueS" firstAttribute="trailing" secondItem="B8O-ja-aoL" secondAttribute="trailing" id="J1b-BB-htk"/>
+                                            <constraint firstAttribute="trailing" secondItem="vgA-2W-ueS" secondAttribute="trailing" constant="57" id="JPJ-qP-7g4"/>
+                                            <constraint firstItem="Nxb-eI-PM8" firstAttribute="top" secondItem="WzX-el-YY1" secondAttribute="bottom" constant="29" id="Jl6-Ob-UXl"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="top" secondItem="btA-Lk-cii" secondAttribute="bottom" constant="45" id="Jy2-7K-IOn"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="MU9-od-ysn" secondAttribute="centerX" id="Lr0-UI-JE0"/>
                                             <constraint firstAttribute="trailing" secondItem="ffc-ry-grY" secondAttribute="trailing" id="Mca-L2-7Jl"/>
-                                            <constraint firstAttribute="height" constant="3000" id="S9Q-ac-LuN"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="Nxb-eI-PM8" secondAttribute="centerX" id="NNa-Xh-len"/>
+                                            <constraint firstItem="zd5-k5-83X" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="212" id="NhB-hh-85t"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="Pqp-Oz-2bm"/>
+                                            <constraint firstItem="vVV-Ex-iyu" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="820" id="Rhe-aW-TlQ"/>
+                                            <constraint firstItem="Nxb-eI-PM8" firstAttribute="leading" secondItem="PcY-XF-6dm" secondAttribute="leading" id="S2r-lG-Gcz"/>
+                                            <constraint firstItem="PcY-XF-6dm" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="47" id="Vrz-wm-XJy"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="akF-L9-BnY" secondAttribute="centerX" id="WAt-vU-aK0"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="vVV-Ex-iyu" secondAttribute="centerX" id="XXS-Sd-KTy"/>
+                                            <constraint firstAttribute="bottom" secondItem="A0k-zg-ol0" secondAttribute="bottom" constant="332" id="YzY-1V-aMT"/>
+                                            <constraint firstItem="ffc-ry-grY" firstAttribute="top" secondItem="qN3-RV-CIJ" secondAttribute="bottom" constant="30" id="aIn-6S-V89"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="cTf-5g-4Ua" secondAttribute="centerX" id="dNi-2P-yOI"/>
+                                            <constraint firstItem="zd5-k5-83X" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="56" id="e7l-Ta-Mjd"/>
+                                            <constraint firstItem="vgA-2W-ueS" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="965" id="eF8-43-cSK"/>
+                                            <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="B8O-ja-aoL" secondAttribute="leading" id="eJW-8u-Zv3"/>
+                                            <constraint firstItem="FD6-RE-baf" firstAttribute="top" secondItem="Nxb-eI-PM8" secondAttribute="bottom" constant="21" id="fhd-jV-RaJ"/>
+                                            <constraint firstItem="Nxb-eI-PM8" firstAttribute="leading" secondItem="akF-L9-BnY" secondAttribute="leading" id="g0p-73-7Ch"/>
+                                            <constraint firstAttribute="bottom" secondItem="qN3-RV-CIJ" secondAttribute="bottom" constant="1124" id="gac-LM-TpL"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="8ha-pO-VbW" secondAttribute="centerX" id="hhf-3Z-y2O"/>
+                                            <constraint firstItem="vgA-2W-ueS" firstAttribute="trailing" secondItem="FD6-RE-baf" secondAttribute="trailing" id="iED-rk-6r9"/>
+                                            <constraint firstItem="7nb-0u-TV2" firstAttribute="top" secondItem="cTf-5g-4Ua" secondAttribute="bottom" constant="15" id="iEJ-zP-3FF"/>
+                                            <constraint firstItem="vgA-2W-ueS" firstAttribute="top" secondItem="2Pn-fE-RGx" secondAttribute="bottom" constant="5" id="j4q-Km-Rgz"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="cgj-Ao-hps" secondAttribute="centerX" id="kya-AX-vdK"/>
+                                            <constraint firstItem="vVV-Ex-iyu" firstAttribute="top" secondItem="7nb-0u-TV2" secondAttribute="bottom" constant="15" id="lR7-zX-Gf2"/>
+                                            <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="44" id="oFs-iK-3LA"/>
+                                            <constraint firstAttribute="bottom" secondItem="cgj-Ao-hps" secondAttribute="bottom" constant="827" id="qq5-VJ-ncn"/>
+                                            <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="QHW-bx-Zgq" secondAttribute="leading" id="r5R-iG-Vbb"/>
+                                            <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="MU9-od-ysn" secondAttribute="leading" id="sUw-VE-HB2"/>
+                                            <constraint firstItem="akF-L9-BnY" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="1094" id="tAE-Lc-wFG"/>
+                                            <constraint firstAttribute="bottom" secondItem="PcY-XF-6dm" secondAttribute="bottom" constant="466" id="tFQ-Pl-SOe"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="FD6-RE-baf" secondAttribute="centerX" id="tsa-u8-Em0"/>
+                                            <constraint firstItem="MU9-od-ysn" firstAttribute="top" secondItem="zd5-k5-83X" secondAttribute="bottom" constant="8" id="uQx-df-kFO"/>
+                                            <constraint firstAttribute="trailing" secondItem="A0k-zg-ol0" secondAttribute="trailing" id="vWo-n9-77j"/>
+                                            <constraint firstItem="2Pn-fE-RGx" firstAttribute="top" secondItem="vVV-Ex-iyu" secondAttribute="bottom" constant="22" id="wDr-Lh-WHz"/>
+                                            <constraint firstItem="qN3-RV-CIJ" firstAttribute="top" secondItem="8ha-pO-VbW" secondAttribute="bottom" constant="21" id="yfu-uI-iuh"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -503,7 +564,7 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                         <viewLayoutGuide key="safeArea" id="07j-Rl-Yef"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="f4o-Pj-vuZ" firstAttribute="height" secondItem="0rc-a3-ZPU" secondAttribute="height" multiplier="3.34821" id="Ctl-hZ-bFM"/>
+                            <constraint firstItem="f4o-Pj-vuZ" firstAttribute="height" secondItem="0rc-a3-ZPU" secondAttribute="height" multiplier="6.69643" id="OlO-EG-7mt"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="top" secondItem="0rc-a3-ZPU" secondAttribute="top" id="Y9a-54-Ery"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="leading" secondItem="07j-Rl-Yef" secondAttribute="leading" id="YUr-qc-kuK"/>
                             <constraint firstItem="k1G-sg-fc7" firstAttribute="trailing" secondItem="07j-Rl-Yef" secondAttribute="trailing" id="byS-Ix-A3y"/>
