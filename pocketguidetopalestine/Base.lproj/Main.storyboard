@@ -147,19 +147,18 @@
         <scene sceneID="yBb-CV-DlC">
             <objects>
                 <viewController id="099-IM-B04" customClass="KhadeejaFirstViewController" customModule="pocketguidetopalestine" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0rc-a3-ZPU">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="0rc-a3-ZPU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k1G-sg-fc7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1G-sg-fc7">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-Pj-vuZ">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-Pj-vuZ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxb-eI-PM8">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxb-eI-PM8">
                                                 <rect key="frame" x="25" y="92" width="303" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Current Events">
                                                         <attributes>
@@ -191,13 +190,194 @@
                                                 <rect key="frame" x="25" y="181" width="284" height="298"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKA-rz-1ts">
+                                                <rect key="frame" x="24" y="144" width="328" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Israel's Latest Assault on Palestine ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="22" name="Times-Bold"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hN2-Lf-NXH">
+                                                <rect key="frame" x="24" y="480" width="304" height="149"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="A">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="third">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="of">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="the">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Palestinians">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="killed">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="by">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Israel’s">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="latest">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="attacks">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="in">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Gaza">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="were">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="children. The death toll rose to 49 last Friday with 17 of them being children.">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpo-he-wgf">
-                                                <rect key="frame" x="26" y="370" width="301" height="340"/>
+                                                <rect key="frame" x="24" y="601" width="304" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Since">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -207,7 +387,7 @@
                                                     </fragment>
                                                     <fragment content="2008,">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -217,7 +397,7 @@
                                                     </fragment>
                                                     <fragment content="Israel">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -227,7 +407,7 @@
                                                     </fragment>
                                                     <fragment content="has">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -237,7 +417,7 @@
                                                     </fragment>
                                                     <fragment content="waged">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -247,7 +427,7 @@
                                                     </fragment>
                                                     <fragment content="four">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -257,7 +437,7 @@
                                                     </fragment>
                                                     <fragment content="wars">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -267,7 +447,7 @@
                                                     </fragment>
                                                     <fragment content="on">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -277,7 +457,7 @@
                                                     </fragment>
                                                     <fragment content="the">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -287,7 +467,7 @@
                                                     </fragment>
                                                     <fragment content="Palestinian">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -297,7 +477,7 @@
                                                     </fragment>
                                                     <fragment content="territory,">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -307,7 +487,7 @@
                                                     </fragment>
                                                     <fragment content="killing">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -317,7 +497,7 @@
                                                     </fragment>
                                                     <fragment content="nearly">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -327,7 +507,7 @@
                                                     </fragment>
                                                     <fragment content="4,000">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -337,7 +517,7 @@
                                                     </fragment>
                                                     <fragment content="people">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -347,7 +527,7 @@
                                                     </fragment>
                                                     <fragment content="–">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -357,7 +537,7 @@
                                                     </fragment>
                                                     <fragment content="one-quarter">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -367,7 +547,7 @@
                                                     </fragment>
                                                     <fragment content="of">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -377,7 +557,7 @@
                                                     </fragment>
                                                     <fragment content="them">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -385,9 +565,19 @@
                                                             <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="children.                                                                   -Al">
+                                                    <fragment content="children.">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="                                                                   ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="-Al">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -397,7 +587,7 @@
                                                     </fragment>
                                                     <fragment content="Jazeera">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" ">
@@ -407,7 +597,63 @@
                                                     </fragment>
                                                     <fragment content="News">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uid-z3-O1d">
+                                                <rect key="frame" x="25" y="717" width="158" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="For">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="more">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="information:">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzm-Ak-aQC">
+                                                <rect key="frame" x="25" y="735" width="290" height="71"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="https://www.aljazeera.com/news/2022/8/12/gaza-death-toll-rises-to-49-including-17-children ">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -416,6 +662,8 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Nxb-eI-PM8" secondAttribute="trailing" constant="86" id="9C5-Zb-AkH"/>
+                                            <constraint firstItem="Nxb-eI-PM8" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="25" id="YRh-6i-dzt"/>
                                             <constraint firstAttribute="height" constant="3000" id="ZXr-df-Y2q"/>
                                         </constraints>
                                     </view>
