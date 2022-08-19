@@ -8,19 +8,33 @@
 import UIKit
 
 class XinSecondViewController: UIViewController {
-
-    @IBOutlet weak var incorrectLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         incorrectLabel.isHidden=true
-        
-        // Do any additional setup after loading the view.
-    }
+        correctLabel.isHidden=true
+}
     
+    @IBOutlet weak var correctLabel: UILabel!
+        
+    
+    
+
+    @IBOutlet weak var incorrectLabel: UILabel!
+   
+
+    @IBAction func falseButton(_ sender: Any) {
+        if correctLabel.isHidden {
+            correctLabel.isHidden=false
+            incorrectLabel.isHidden=true
+        }
+            }
+            
     @IBAction func trueButton(_ sender: Any) {
         if incorrectLabel.isHidden {
             incorrectLabel.isHidden=false
+            correctLabel.isHidden=true
         }
+        
     }
     /*
     // MARK: - Navigation
