@@ -731,7 +731,7 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="cTf-5g-4Ua" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="726" id="03H-Ey-zyX"/>
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="113" id="0bP-3W-zIj"/>
@@ -1260,14 +1260,14 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                 <rect key="frame" x="75" y="694" width="265" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Continue to learn more!"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Continue to learn more!"/>
                                 <connections>
                                     <segue destination="Xt4-xr-GO1" kind="show" id="x7x-pt-j38"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qex-sP-PRT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="tnY-rc-HFY"/>
                 </viewController>
@@ -1301,19 +1301,37 @@ Out of Place by Edward Said
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IP-d0-qz0">
-                                <rect key="frame" x="58" y="639" width="105" height="28"/>
+                                <rect key="frame" x="46" y="624" width="117" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Back"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back">
+                                            <attributes>
+                                                <color key="NSColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="fcQ-Xe-jfW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEY-r9-24D">
-                                <rect key="frame" x="194" y="639" width="200" height="31"/>
+                                <rect key="frame" x="190" y="624" width="204" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="More Resources"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Resources">
+                                            <attributes>
+                                                <color key="NSColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="5wy-ha-Fvg" kind="show" id="Oii-aa-dsc"/>
                                 </connections>
@@ -1327,7 +1345,7 @@ Out of Place by Edward Said
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d2e-bu-Ucn"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784313725488" green="0.89803921568627454" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="sj4-mY-QkE"/>
                 </viewController>
@@ -1356,17 +1374,26 @@ Out of Place by Edward Said
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5b-cs-UAE">
-                                <rect key="frame" x="155" y="653" width="105" height="28"/>
+                                <rect key="frame" x="151" y="636" width="111" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Back"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back">
+                                            <attributes>
+                                                <color key="NSColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Xt4-xr-GO1" kind="show" id="eZI-0y-cRF"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P1l-5x-7Ut"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784313725488" green="0.89803921568627454" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="IYX-TK-UYp"/>
                 </viewController>
@@ -1524,12 +1551,12 @@ Out of Place by Edward Said
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="FOd-Hj-izN"/>
-        <segue reference="dru-vG-iAV"/>
+        <segue reference="Oii-aa-dsc"/>
         <segue reference="eZI-0y-cRF"/>
         <segue reference="664-VU-WxI"/>
-        <segue reference="jjY-Ee-Puj"/>
+        <segue reference="UAO-Mb-24B"/>
         <segue reference="hhb-oY-eGx"/>
-        <segue reference="8ez-Xb-atn"/>
+        <segue reference="fcQ-Xe-jfW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-18 at 2.40.05 PM" width="720" height="402"/>
