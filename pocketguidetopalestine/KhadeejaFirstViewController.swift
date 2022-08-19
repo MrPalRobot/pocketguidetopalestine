@@ -47,7 +47,16 @@ class KhadeejaFirstViewController: UIViewController {
     
     
     
+    //lovely Shireen
     
+    
+    @IBAction func shis(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.aljazeera.com/news/2022/8/18/100-days-since-the-killing-of-shireen-abu-akleh")! as URL, options: [:], completionHandler: nil)
+        
+        
+        
+        
+    }
     
     
 
