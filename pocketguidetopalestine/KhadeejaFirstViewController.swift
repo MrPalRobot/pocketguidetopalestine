@@ -52,11 +52,19 @@ class KhadeejaFirstViewController: UIViewController {
     
     @IBAction func shis(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: "https://www.aljazeera.com/news/2022/8/18/100-days-since-the-killing-of-shireen-abu-akleh")! as URL, options: [:], completionHandler: nil)
-        
-        
-        
-        
     }
+    
+    
+    @IBAction func alAqsa(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.aljazeera.com/news/2022/4/20/timeline-raids-closures-and-restrictions-on-al-aqsa")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    @IBAction func tasreeh(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://correspondent.afp.com/promised-land-last")! as URL, options: [:], completionHandler: nil)
+    }
+    
     
     
 
