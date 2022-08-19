@@ -152,10 +152,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k1G-sg-fc7">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="626.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="629.5"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-Pj-vuZ">
-                                        <rect key="frame" x="8" y="0.0" width="414" height="4500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-Pj-vuZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3161"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0q-WG-G3e">
                                                 <rect key="frame" x="289" y="19" width="88" height="65"/>
@@ -543,8 +543,8 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                     <action selector="nGos:" destination="099-IM-B04" eventType="touchUpInside" id="mcP-tb-Pyk"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="shireen" translatesAutoresizingMaskIntoConstraints="NO" id="SIR-Cj-pXE">
-                                                <rect key="frame" x="0.0" y="2803" width="414" height="279"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shireen" translatesAutoresizingMaskIntoConstraints="NO" id="SIR-Cj-pXE">
+                                                <rect key="frame" x="0.0" y="1560" width="414" height="183"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ott-13-YYC">
                                                 <rect key="frame" x="37" y="3265" width="326" height="209"/>
@@ -737,28 +737,28 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="113" id="0bP-3W-zIj"/>
                                             <constraint firstItem="KGw-FS-LVC" firstAttribute="leading" secondItem="D5k-Nf-Pn1" secondAttribute="leading" id="0nW-Gn-1LX"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="centerX" secondItem="btA-Lk-cii" secondAttribute="centerX" id="1Y5-w3-cwk"/>
-                                            <constraint firstItem="14d-dz-hL3" firstAttribute="top" secondItem="zhw-Mq-3SK" secondAttribute="bottom" constant="27" id="211-pX-VFE"/>
+                                            <constraint firstItem="14d-dz-hL3" firstAttribute="top" secondItem="zhw-Mq-3SK" secondAttribute="bottom" constant="21" id="211-pX-VFE"/>
                                             <constraint firstItem="zhw-Mq-3SK" firstAttribute="centerX" secondItem="Ott-13-YYC" secondAttribute="centerX" id="4H7-Ws-Fll"/>
                                             <constraint firstItem="ffc-ry-grY" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="4nj-bu-t4h"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="QHW-bx-Zgq" secondAttribute="centerX" id="5HJ-YN-hMg"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="vgA-2W-ueS" secondAttribute="leading" id="68Z-81-icY"/>
-                                            <constraint firstItem="KGw-FS-LVC" firstAttribute="top" secondItem="SIR-Cj-pXE" secondAttribute="bottom" constant="25" id="6F5-Mm-ctQ"/>
+                                            <constraint firstItem="KGw-FS-LVC" firstAttribute="top" secondItem="SIR-Cj-pXE" secondAttribute="bottom" constant="23" id="6F5-Mm-ctQ"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="zd5-k5-83X" secondAttribute="centerX" id="6Nh-q5-yOq"/>
                                             <constraint firstItem="btA-Lk-cii" firstAttribute="top" secondItem="PcY-XF-6dm" secondAttribute="bottom" constant="8" id="7Hd-sN-Qo2"/>
                                             <constraint firstItem="zhw-Mq-3SK" firstAttribute="trailing" secondItem="JBZ-BK-vLA" secondAttribute="trailing" id="9JN-Qe-twa"/>
                                             <constraint firstItem="QHW-bx-Zgq" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="1278" id="ALe-Sn-voO"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="qN3-RV-CIJ" secondAttribute="centerX" id="AUr-Lr-OPY"/>
-                                            <constraint firstItem="cTf-5g-4Ua" firstAttribute="centerX" secondItem="2Pn-fE-RGx" secondAttribute="centerX" id="BkH-sI-6pI"/>
+                                            <constraint firstItem="cTf-5g-4Ua" firstAttribute="centerX" secondItem="2Pn-fE-RGx" secondAttribute="centerX" constant="-1" id="BkH-sI-6pI"/>
                                             <constraint firstItem="zhw-Mq-3SK" firstAttribute="top" secondItem="D5k-Nf-Pn1" secondAttribute="bottom" constant="22" id="Dh6-H9-3It"/>
                                             <constraint firstItem="zd5-k5-83X" firstAttribute="top" secondItem="FD6-RE-baf" secondAttribute="bottom" constant="8" id="Ehd-fN-DsG"/>
                                             <constraint firstItem="cTf-5g-4Ua" firstAttribute="top" secondItem="B8O-ja-aoL" secondAttribute="bottom" constant="1" id="FXk-oE-gbf"/>
                                             <constraint firstItem="8ha-pO-VbW" firstAttribute="top" secondItem="QHW-bx-Zgq" secondAttribute="bottom" constant="8" id="Gff-GL-soE"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="top" secondItem="JBZ-BK-vLA" secondAttribute="bottom" constant="8" id="HRj-0A-3N3"/>
-                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="7nb-0u-TV2" secondAttribute="centerX" id="HSN-vp-Z1f"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="7nb-0u-TV2" secondAttribute="centerX" constant="2.5" id="HSN-vp-Z1f"/>
                                             <constraint firstAttribute="trailing" secondItem="14d-dz-hL3" secondAttribute="trailing" id="Hlh-CB-foY"/>
                                             <constraint firstItem="14d-dz-hL3" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="HwT-LZ-d13"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="JBZ-BK-vLA" secondAttribute="centerX" id="IA8-zO-lBY"/>
-                                            <constraint firstAttribute="bottom" secondItem="KGw-FS-LVC" secondAttribute="bottom" constant="2801" id="IcC-1H-TO6"/>
+                                            <constraint firstAttribute="bottom" secondItem="KGw-FS-LVC" secondAttribute="bottom" constant="1249" id="IcC-1H-TO6"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="trailing" secondItem="B8O-ja-aoL" secondAttribute="trailing" id="J1b-BB-htk"/>
                                             <constraint firstAttribute="trailing" secondItem="vgA-2W-ueS" secondAttribute="trailing" constant="57" id="JPJ-qP-7g4"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="top" secondItem="btA-Lk-cii" secondAttribute="bottom" constant="45" id="Jy2-7K-IOn"/>
@@ -773,6 +773,7 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstItem="PcY-XF-6dm" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="47" id="Vrz-wm-XJy"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="akF-L9-BnY" secondAttribute="centerX" id="WAt-vU-aK0"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="vVV-Ex-iyu" secondAttribute="centerX" id="XXS-Sd-KTy"/>
+                                            <constraint firstItem="SIR-Cj-pXE" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="Xa7-bB-s1x"/>
                                             <constraint firstAttribute="height" constant="4500" id="Xbc-nC-b0B"/>
                                             <constraint firstAttribute="bottom" secondItem="A0k-zg-ol0" secondAttribute="bottom" constant="332" id="YzY-1V-aMT"/>
                                             <constraint firstItem="ffc-ry-grY" firstAttribute="top" secondItem="qN3-RV-CIJ" secondAttribute="bottom" constant="30" id="aIn-6S-V89"/>
@@ -783,16 +784,16 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstItem="FD6-RE-baf" firstAttribute="top" secondItem="Nxb-eI-PM8" secondAttribute="bottom" constant="21" id="fhd-jV-RaJ"/>
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="leading" secondItem="akF-L9-BnY" secondAttribute="leading" id="g0p-73-7Ch"/>
                                             <constraint firstAttribute="bottom" secondItem="qN3-RV-CIJ" secondAttribute="bottom" constant="1124" id="gac-LM-TpL"/>
-                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="8ha-pO-VbW" secondAttribute="centerX" id="hhf-3Z-y2O"/>
+                                            <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="8ha-pO-VbW" secondAttribute="centerX" constant="3" id="hhf-3Z-y2O"/>
                                             <constraint firstItem="zhw-Mq-3SK" firstAttribute="leading" secondItem="JBZ-BK-vLA" secondAttribute="leading" id="iAf-wh-oc7"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="trailing" secondItem="FD6-RE-baf" secondAttribute="trailing" id="iED-rk-6r9"/>
                                             <constraint firstItem="7nb-0u-TV2" firstAttribute="top" secondItem="cTf-5g-4Ua" secondAttribute="bottom" constant="15" id="iEJ-zP-3FF"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="top" secondItem="2Pn-fE-RGx" secondAttribute="bottom" constant="5" id="j4q-Km-Rgz"/>
                                             <constraint firstItem="14d-dz-hL3" firstAttribute="trailing" secondItem="SIR-Cj-pXE" secondAttribute="trailing" id="jTc-TJ-Lqn"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="cgj-Ao-hps" secondAttribute="centerX" id="kya-AX-vdK"/>
-                                            <constraint firstItem="vVV-Ex-iyu" firstAttribute="top" secondItem="7nb-0u-TV2" secondAttribute="bottom" constant="15" id="lR7-zX-Gf2"/>
+                                            <constraint firstItem="vVV-Ex-iyu" firstAttribute="top" secondItem="7nb-0u-TV2" secondAttribute="bottom" constant="13" id="lR7-zX-Gf2"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="44" id="oFs-iK-3LA"/>
-                                            <constraint firstAttribute="bottom" secondItem="14d-dz-hL3" secondAttribute="bottom" constant="2351" id="oxK-zz-YhM"/>
+                                            <constraint firstAttribute="bottom" secondItem="14d-dz-hL3" secondAttribute="bottom" constant="795" id="oxK-zz-YhM"/>
                                             <constraint firstAttribute="bottom" secondItem="cgj-Ao-hps" secondAttribute="bottom" constant="827" id="qq5-VJ-ncn"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="QHW-bx-Zgq" secondAttribute="leading" id="r5R-iG-Vbb"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="MU9-od-ysn" secondAttribute="leading" id="sUw-VE-HB2"/>
@@ -804,9 +805,10 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstItem="KGw-FS-LVC" firstAttribute="leading" secondItem="Ott-13-YYC" secondAttribute="leading" id="v3c-KW-ZLj"/>
                                             <constraint firstAttribute="trailing" secondItem="A0k-zg-ol0" secondAttribute="trailing" id="vWo-n9-77j"/>
                                             <constraint firstItem="zhw-Mq-3SK" firstAttribute="centerX" secondItem="KGw-FS-LVC" secondAttribute="centerX" id="vta-je-VwF"/>
-                                            <constraint firstItem="2Pn-fE-RGx" firstAttribute="top" secondItem="vVV-Ex-iyu" secondAttribute="bottom" constant="22" id="wDr-Lh-WHz"/>
-                                            <constraint firstItem="qN3-RV-CIJ" firstAttribute="top" secondItem="8ha-pO-VbW" secondAttribute="bottom" constant="21" id="yfu-uI-iuh"/>
-                                            <constraint firstItem="Ott-13-YYC" firstAttribute="top" secondItem="KGw-FS-LVC" secondAttribute="bottom" constant="8" id="ziA-up-1ON"/>
+                                            <constraint firstItem="2Pn-fE-RGx" firstAttribute="top" secondItem="vVV-Ex-iyu" secondAttribute="bottom" constant="17" id="wDr-Lh-WHz"/>
+                                            <constraint firstAttribute="trailing" secondItem="SIR-Cj-pXE" secondAttribute="trailing" id="wFx-tt-s8c"/>
+                                            <constraint firstItem="qN3-RV-CIJ" firstAttribute="top" secondItem="8ha-pO-VbW" secondAttribute="bottom" constant="36" id="yfu-uI-iuh"/>
+                                            <constraint firstItem="Ott-13-YYC" firstAttribute="top" secondItem="KGw-FS-LVC" secondAttribute="bottom" constant="14" id="ziA-up-1ON"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1554,7 +1556,7 @@ Out of Place by Edward Said
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5b-cs-UAE">
-                                <rect key="frame" x="152" y="631" width="110" height="44"/>
+                                <rect key="frame" x="83" y="631" width="110" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
@@ -1569,6 +1571,25 @@ Out of Place by Edward Said
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Xt4-xr-GO1" kind="show" id="eZI-0y-cRF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Es2-2p-TXf">
+                                <rect key="frame" x="237" y="631" width="110" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="099-IM-B04" kind="show" id="bFf-V9-HSB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1771,12 +1792,13 @@ Out of Place by Edward Said
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="QT9-Ej-dc6"/>
-        <segue reference="Oii-aa-dsc"/>
+        <segue reference="dru-vG-iAV"/>
         <segue reference="eZI-0y-cRF"/>
         <segue reference="664-VU-WxI"/>
         <segue reference="jjY-Ee-Puj"/>
         <segue reference="bdn-97-JrJ"/>
-        <segue reference="fcQ-Xe-jfW"/>
+        <segue reference="8ez-Xb-atn"/>
+        <segue reference="bFf-V9-HSB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-18 at 2.40.05 PM" width="720" height="402"/>
