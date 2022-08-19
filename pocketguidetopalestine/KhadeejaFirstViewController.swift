@@ -34,6 +34,12 @@ class KhadeejaFirstViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.aljazeera.com/news/liveblog/2022/8/7/israel-palestine-latest-updates-dozens-killed-in-three-day-gaza-assault")! as URL, options: [:], completionHandler: nil)
     }
     
+    //Link to More Info on NGOs
+    
+    
+    @IBAction func nGos(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.aljazeera.com/news/2022/8/18/israel-shuts-down-ngos-kills-palestinian-in-occupied-west-bank")! as URL, options: [:], completionHandler: nil)
+    }
     
     
     
