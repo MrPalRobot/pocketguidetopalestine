@@ -352,15 +352,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVV-Ex-iyu">
-                                                <rect key="frame" x="29" y="825" width="354" height="51"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="56" id="Ba5-5h-sjU"/>
-                                                </constraints>
+                                                <rect key="frame" x="29" y="818" width="354" height="63"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="The life and death of one Palestinian child">
+                                                        <fragment content="The Life and Death of One Palestinian Child">
                                                             <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -427,20 +425,37 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-62-zA8">
-                                                <rect key="frame" x="138" y="2705" width="144" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zta-g1-6jF">
+                                                <rect key="frame" x="126" y="3739" width="168" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content">Shireen killing
-</string>
+                                                    <fragment content="Al Aqsa Invasion">
                                                         <attributes>
                                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="22" name="Georgia-Italic"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="22" name="Georgia-Italic"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" minimumLineHeight="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" headerLevel="1">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-62-zA8">
+                                                <rect key="frame" x="8" y="2669" width="398" height="134"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Journalists are Killed for Trying to Share the Palestinian Struggle with the World">
+                                                        <attributes>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="22" name="Georgia-Italic"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" minimumLineHeight="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" headerLevel="1">
                                                                 <tabStops/>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -496,9 +511,11 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGw-FS-LVC">
-                                                <rect key="frame" x="37" y="3053" width="326" height="146"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGw-FS-LVC">
+                                                <rect key="frame" x="37" y="3105" width="326" height="146"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="146" id="AH1-sO-WgM"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Shireen Abu Akleh was known as the Voice of the Palestine and her bravery in ">
                                                         <attributes>
@@ -545,13 +562,11 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                     <action selector="nGos:" destination="099-IM-B04" eventType="touchUpInside" id="mcP-tb-Pyk"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shireen" translatesAutoresizingMaskIntoConstraints="NO" id="SIR-Cj-pXE">
-                                                <rect key="frame" x="0.0" y="2754" width="414" height="274"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="shireen" translatesAutoresizingMaskIntoConstraints="NO" id="SIR-Cj-pXE">
+                                                <rect key="frame" x="0.0" y="2803" width="414" height="279"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ott-13-YYC">
-                                                <rect key="frame" x="37" y="3207" width="326" height="209"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ott-13-YYC">
+                                                <rect key="frame" x="37" y="3265" width="326" height="209"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">Abu Akleh, a Palestinian American reporter who was well known across the Arab world for her 25-year coverage of the Israeli occupation, was fatally shot in the head by an Israeli sniper on May 11 while covering an Israeli raid on the Jenin refugee camp in the occupied West Bank.</string>
@@ -570,9 +585,8 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5k-Nf-Pn1">
-                                                <rect key="frame" x="37" y="3424" width="326" height="98"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5k-Nf-Pn1">
+                                                <rect key="frame" x="37" y="3487" width="326" height="98"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="The US has failed to do the bare minimum in holding its ally accountable.">
                                                         <attributes>
@@ -590,9 +604,31 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhw-Mq-3SK">
-                                                <rect key="frame" x="81" y="3544" width="239" height="57"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am6-P5-2H3">
+                                                <rect key="frame" x="44" y="3799" width="326" height="98"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="In 2022, Israeli forces stormed Al-Aqsa Mosque, injuring in total over 170 people. The conflict over this site isn't new.">
+                                                        <attributes>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="20" name="Georgia"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhw-Mq-3SK">
+                                                <rect key="frame" x="81" y="3606" width="239" height="57"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="57" id="Wfa-5f-osw"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
@@ -608,10 +644,30 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                                     <action selector="shis:" destination="099-IM-B04" eventType="touchUpInside" id="iyD-gw-ps4"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14d-dz-hL3">
-                                                <rect key="frame" x="0.0" y="3628" width="414" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14d-dz-hL3">
+                                                <rect key="frame" x="0.0" y="3684" width="414" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUc-f1-LuD">
+                                                <rect key="frame" x="47" y="3905" width="326" height="98"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="In 2022, Israeli forces stormed Al-Aqsa Mosque, injuring in total over 170 people. The conflict over this site isn't new.">
+                                                        <attributes>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="20" name="Georgia"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -619,16 +675,22 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                         <constraints>
                                             <constraint firstItem="cTf-5g-4Ua" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="726" id="03H-Ey-zyX"/>
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="113" id="0bP-3W-zIj"/>
+                                            <constraint firstItem="KGw-FS-LVC" firstAttribute="leading" secondItem="D5k-Nf-Pn1" secondAttribute="leading" id="0nW-Gn-1LX"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="centerX" secondItem="btA-Lk-cii" secondAttribute="centerX" id="1Y5-w3-cwk"/>
+                                            <constraint firstItem="14d-dz-hL3" firstAttribute="top" secondItem="zhw-Mq-3SK" secondAttribute="bottom" constant="27" id="211-pX-VFE"/>
+                                            <constraint firstItem="zhw-Mq-3SK" firstAttribute="centerX" secondItem="Ott-13-YYC" secondAttribute="centerX" id="4H7-Ws-Fll"/>
                                             <constraint firstItem="ffc-ry-grY" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="4nj-bu-t4h"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="QHW-bx-Zgq" secondAttribute="centerX" id="5HJ-YN-hMg"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="vgA-2W-ueS" secondAttribute="leading" id="68Z-81-icY"/>
+                                            <constraint firstItem="KGw-FS-LVC" firstAttribute="top" secondItem="SIR-Cj-pXE" secondAttribute="bottom" constant="25" id="6F5-Mm-ctQ"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="zd5-k5-83X" secondAttribute="centerX" id="6Nh-q5-yOq"/>
                                             <constraint firstItem="btA-Lk-cii" firstAttribute="top" secondItem="PcY-XF-6dm" secondAttribute="bottom" constant="8" id="7Hd-sN-Qo2"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="WzX-el-YY1" secondAttribute="centerX" id="8U8-8v-VU4"/>
+                                            <constraint firstItem="zhw-Mq-3SK" firstAttribute="trailing" secondItem="JBZ-BK-vLA" secondAttribute="trailing" id="9JN-Qe-twa"/>
                                             <constraint firstItem="QHW-bx-Zgq" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="1278" id="ALe-Sn-voO"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="qN3-RV-CIJ" secondAttribute="centerX" id="AUr-Lr-OPY"/>
                                             <constraint firstItem="cTf-5g-4Ua" firstAttribute="centerX" secondItem="2Pn-fE-RGx" secondAttribute="centerX" id="BkH-sI-6pI"/>
+                                            <constraint firstItem="zhw-Mq-3SK" firstAttribute="top" secondItem="D5k-Nf-Pn1" secondAttribute="bottom" constant="22" id="Dh6-H9-3It"/>
                                             <constraint firstItem="zd5-k5-83X" firstAttribute="top" secondItem="FD6-RE-baf" secondAttribute="bottom" constant="8" id="Ehd-fN-DsG"/>
                                             <constraint firstItem="cTf-5g-4Ua" firstAttribute="top" secondItem="B8O-ja-aoL" secondAttribute="bottom" constant="1" id="FXk-oE-gbf"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="6000" id="Fo5-Wc-8h6"/>
@@ -638,6 +700,7 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstAttribute="trailing" secondItem="14d-dz-hL3" secondAttribute="trailing" id="Hlh-CB-foY"/>
                                             <constraint firstItem="14d-dz-hL3" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="HwT-LZ-d13"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="JBZ-BK-vLA" secondAttribute="centerX" id="IA8-zO-lBY"/>
+                                            <constraint firstAttribute="bottom" secondItem="KGw-FS-LVC" secondAttribute="bottom" constant="2801" id="IcC-1H-TO6"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="trailing" secondItem="B8O-ja-aoL" secondAttribute="trailing" id="J1b-BB-htk"/>
                                             <constraint firstAttribute="trailing" secondItem="vgA-2W-ueS" secondAttribute="trailing" constant="57" id="JPJ-qP-7g4"/>
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="top" secondItem="WzX-el-YY1" secondAttribute="bottom" constant="29" id="Jl6-Ob-UXl"/>
@@ -649,6 +712,7 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" id="Pqp-Oz-2bm"/>
                                             <constraint firstItem="vVV-Ex-iyu" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="820" id="Rhe-aW-TlQ"/>
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="leading" secondItem="PcY-XF-6dm" secondAttribute="leading" id="S2r-lG-Gcz"/>
+                                            <constraint firstItem="zhw-Mq-3SK" firstAttribute="centerX" secondItem="D5k-Nf-Pn1" secondAttribute="centerX" id="SoD-l6-icm"/>
                                             <constraint firstItem="PcY-XF-6dm" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="47" id="Vrz-wm-XJy"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="akF-L9-BnY" secondAttribute="centerX" id="WAt-vU-aK0"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="vVV-Ex-iyu" secondAttribute="centerX" id="XXS-Sd-KTy"/>
@@ -662,22 +726,29 @@ The seventh organisation raided was the Union of Health Work Committees (UHWC).<
                                             <constraint firstItem="Nxb-eI-PM8" firstAttribute="leading" secondItem="akF-L9-BnY" secondAttribute="leading" id="g0p-73-7Ch"/>
                                             <constraint firstAttribute="bottom" secondItem="qN3-RV-CIJ" secondAttribute="bottom" constant="1124" id="gac-LM-TpL"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="8ha-pO-VbW" secondAttribute="centerX" id="hhf-3Z-y2O"/>
+                                            <constraint firstItem="zhw-Mq-3SK" firstAttribute="leading" secondItem="JBZ-BK-vLA" secondAttribute="leading" id="iAf-wh-oc7"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="trailing" secondItem="FD6-RE-baf" secondAttribute="trailing" id="iED-rk-6r9"/>
                                             <constraint firstItem="7nb-0u-TV2" firstAttribute="top" secondItem="cTf-5g-4Ua" secondAttribute="bottom" constant="15" id="iEJ-zP-3FF"/>
                                             <constraint firstItem="vgA-2W-ueS" firstAttribute="top" secondItem="2Pn-fE-RGx" secondAttribute="bottom" constant="5" id="j4q-Km-Rgz"/>
+                                            <constraint firstItem="14d-dz-hL3" firstAttribute="trailing" secondItem="SIR-Cj-pXE" secondAttribute="trailing" id="jTc-TJ-Lqn"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="cgj-Ao-hps" secondAttribute="centerX" id="kya-AX-vdK"/>
                                             <constraint firstItem="vVV-Ex-iyu" firstAttribute="top" secondItem="7nb-0u-TV2" secondAttribute="bottom" constant="15" id="lR7-zX-Gf2"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="f4o-Pj-vuZ" secondAttribute="leading" constant="44" id="oFs-iK-3LA"/>
+                                            <constraint firstAttribute="bottom" secondItem="14d-dz-hL3" secondAttribute="bottom" constant="2351" id="oxK-zz-YhM"/>
                                             <constraint firstAttribute="bottom" secondItem="cgj-Ao-hps" secondAttribute="bottom" constant="827" id="qq5-VJ-ncn"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="QHW-bx-Zgq" secondAttribute="leading" id="r5R-iG-Vbb"/>
                                             <constraint firstItem="cgj-Ao-hps" firstAttribute="leading" secondItem="MU9-od-ysn" secondAttribute="leading" id="sUw-VE-HB2"/>
+                                            <constraint firstItem="14d-dz-hL3" firstAttribute="leading" secondItem="SIR-Cj-pXE" secondAttribute="leading" id="t2A-6Z-Wzu"/>
                                             <constraint firstItem="akF-L9-BnY" firstAttribute="top" secondItem="f4o-Pj-vuZ" secondAttribute="top" constant="1094" id="tAE-Lc-wFG"/>
                                             <constraint firstAttribute="bottom" secondItem="PcY-XF-6dm" secondAttribute="bottom" constant="466" id="tFQ-Pl-SOe"/>
                                             <constraint firstItem="A0k-zg-ol0" firstAttribute="centerX" secondItem="FD6-RE-baf" secondAttribute="centerX" id="tsa-u8-Em0"/>
                                             <constraint firstItem="MU9-od-ysn" firstAttribute="top" secondItem="zd5-k5-83X" secondAttribute="bottom" constant="8" id="uQx-df-kFO"/>
+                                            <constraint firstItem="KGw-FS-LVC" firstAttribute="leading" secondItem="Ott-13-YYC" secondAttribute="leading" id="v3c-KW-ZLj"/>
                                             <constraint firstAttribute="trailing" secondItem="A0k-zg-ol0" secondAttribute="trailing" id="vWo-n9-77j"/>
+                                            <constraint firstItem="zhw-Mq-3SK" firstAttribute="centerX" secondItem="KGw-FS-LVC" secondAttribute="centerX" id="vta-je-VwF"/>
                                             <constraint firstItem="2Pn-fE-RGx" firstAttribute="top" secondItem="vVV-Ex-iyu" secondAttribute="bottom" constant="22" id="wDr-Lh-WHz"/>
                                             <constraint firstItem="qN3-RV-CIJ" firstAttribute="top" secondItem="8ha-pO-VbW" secondAttribute="bottom" constant="21" id="yfu-uI-iuh"/>
+                                            <constraint firstItem="Ott-13-YYC" firstAttribute="top" secondItem="KGw-FS-LVC" secondAttribute="bottom" constant="8" id="ziA-up-1ON"/>
                                         </constraints>
                                     </view>
                                 </subviews>
